@@ -39,7 +39,7 @@ The citation links are the undirected edges and the sparse bag-of-words feature 
 ### Experiments
 
 The training log is shown here:
-<p align="center"><img width="50%" src="training.PNG" /></p>
+<p align="center"><img width="70%" src="training.PNG" /></p>
 It could achieve a high accuracy with high speed.
 
 # References
