@@ -1,5 +1,5 @@
 # Stat992 
-## This blog brief introduces the GCN which uses a kind of spectral graph convolutional network to classify unlabeled nodes.
+## This blog brief introduces the technique of GCN.
 
 # Introduction
 This paper considers the problem of classifying nodes in a graph where only a small part of nodes have labels. The GCN introduced in this paper belongs to the family of spectral graph convolutional networks.
