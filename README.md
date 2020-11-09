@@ -2,12 +2,14 @@
 ## This blog brief introduces the technique of GCN.
 
 # Introduction
-This paper considers the problem of classifying nodes in a graph where only a small part of nodes have labels. The GCN introduced in this paper belongs to the family of spectral graph convolutional networks.
+This paper considers the problem of classifying nodes in a graph where only a small part of nodes have labels. There are many types of graph convolutional networks and the GCN introduced in this blog belongs to the family of spectral graph convolutional networks.
 
 # Overview of this technique
 <p align="center"><img width="50%" src="GCN.PNG" /></p>
 
 On this figure, ![](https://latex.codecogs.com/svg.latex?X) is the original features of nodes (Some nodes have labels and some nodes don't have labels). ![](https://latex.codecogs.com/svg.latex?Z) is the final prediction of nodes and ![](https://latex.codecogs.com/svg.latex?Y) is the ground-truth label for nodes (Not all nodes have labels). ![](https://latex.codecogs.com/svg.latex?C) is the channel number of input layer and ![](https://latex.codecogs.com/svg.latex?F) is the channel number of output layer.
+
+The input of GCN is the original graph and the output is prediction of each node. 
 
 # Math Formula
 
